@@ -34,6 +34,7 @@ fi
 
 # Apply theming defaults
 PS1="%n@%m:%~%# "
+# PS1="$ [%~] "
 
 # git theming default: Variables for theming the git info prompt
 ZSH_THEME_GIT_PROMPT_PREFIX="git:("         # Prefix at the very beginning of the prompt, before the branch name
